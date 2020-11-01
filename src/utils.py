@@ -76,8 +76,8 @@ DO_WE_ADD_PARAMS_REUPLOAD = False
 # You can add multiple schedules to be run after x days of the bots life
 USE_SLEEP_SCHEDULE = True
 BOT_SCHEDULES = [
-  {"days": 0, "schedule": [((4,00),(5,00)), ((17,30),(19,30))]},
-  {"days": 4, "schedule": [((8,00),(10,00)), ((20,30),(23,20))]},
+  {"days": 0, "schedule": [((00,00),(12,00)), ((12,00),(24,00))]},
+  {"days": 1, "schedule": [((00,00),(12,00)), ((12,00),(24,00))]},
   ]
 
 if os.environ.get('PORT'):
